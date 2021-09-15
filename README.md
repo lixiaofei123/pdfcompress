@@ -1,4 +1,6 @@
 
+[![docker build](https://github.com/lixiaofei123/pdfcompress/actions/workflows/docker.yml/badge.svg)](https://github.com/lixiaofei123/pdfcompress/actions/workflows/docker.yml)
+
 ## 一个简单的在线压缩pdf网站
 
 使用 [GhostScript](https://www.ghostscript.com) 进行压缩
@@ -10,7 +12,7 @@
 建议使用Docker一键部署
 
 ```
-docker run -d --name pdfcompress --restart=always -p 8082:8080 -v /data/pdfcompress/input:/opt/pdfcompress/input  -v /data/pdfcompress/output:/opt/pdfcompress/output  mrlee326/pdfcompress
+docker run -d --name pdfcompress --restart=always -p 8082:8082 -v /data/pdfcompress/input:/opt/pdfcompress/input  -v /data/pdfcompress/output:/opt/pdfcompress/output  mrlee326/pdfcompress
 ```
 
 启动成功后，在浏览器中访问 http://ip:8082，如下图所示

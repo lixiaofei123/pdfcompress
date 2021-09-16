@@ -1,3 +1,5 @@
+本项目不再更新，请访问新项目[pdf工具箱](https://github.com/lixiaofei123/pdftoolbox)，pdftoolbox除了支持pdf压缩以外，还支持OCR文字提取
+
 
 [![docker build](https://github.com/lixiaofei123/pdfcompress/actions/workflows/docker.yml/badge.svg)](https://github.com/lixiaofei123/pdfcompress/actions/workflows/docker.yml)
 
